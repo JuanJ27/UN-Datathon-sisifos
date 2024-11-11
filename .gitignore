@@ -4,3 +4,5 @@
 *.h5
 *.parquet
 *.xlsx
+*.pyc
+*.zip
