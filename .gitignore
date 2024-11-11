@@ -6,3 +6,5 @@
 *.xlsx
 *.pyc
 *.zip
+*vec
+*pickle
