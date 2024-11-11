@@ -34,10 +34,14 @@ The project began with an analysis of positive factors (green areas, educational
 
 Several AI models were developed:
 
-- **Prediction of Tourist Arrivals**
-- **Sentiment Analysis on Tourism** among residents
-- **Incident Reporting Mechanisms** for safety concerns
-- **Gentrification Trend Prediction** based on local characteristics
+To assist regulatory bodies and the Medellín Mayor's Office in decision-making:
+
+- **Prediction of Tourist Arrivals**: Helps authorities plan resources and infrastructure based on expected visitor volumes
+- **Sentiment Analysis on Tourism (AWS)**: Enables monitoring of public perception and community impact
+- **Alerting System for GBV (AWS)**: Supports early detection and response to gender-based violence incidents
+
+These models provide valuable data-driven insights for policy making, resource allocation, and public safety measures in the tourism sector.
+
 
 ## Deliverables
 
