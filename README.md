@@ -48,5 +48,5 @@ A final presentation video was created to showcase the project's outcomes and re
 - **Tomás Sosa**: [tomassosa.23@gmail.com](mailto:tomassosa.23@gmail.com)
 - **Diego Alejandro**: [dalejandroabel@gmail.com](mailto:dalejandroabel@gmail.com)
 - **Juan Montoya**: [montoyasanchezjuanjo@gmail.com](mailto:montoyasanchezjuanjo@gmail.com)
-- **Jhoan Ginkgo**: [spatialginkgo2000@gmail.com](mailto:spatialginkgo2000@gmail.com)
-- **Darwin Astr**: [darwin.astr@gmail.com](mailto:darwin.astr@gmail.com)
+- **Jhoan Moscoso**: [spatialginkgo2000@gmail.com](mailto:spatialginkgo2000@gmail.com)
+- **Darwin Escobar**: [darwin.astr@gmail.com](mailto:darwin.astr@gmail.com)
