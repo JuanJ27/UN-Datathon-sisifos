@@ -164,7 +164,7 @@ def contar_puntos_en_poligonos(gdf_puntos, gdf_poligonos, columna_poligono_id='i
     - columna_poligono_id: Nombre de la columna en gdf_poligonos que identifica de manera única cada polígono.
 
     Retorna:
-    - DataFrame con el conteo de puntos dentro de cada polígono.
+    - GeoDataFrame con el conteo de puntos dentro de cada polígono.
     """
 
     # Asegurarse de que ambos GeoDataFrames estén en el mismo sistema de coordenadas
@@ -172,7 +172,12 @@ def contar_puntos_en_poligonos(gdf_puntos, gdf_poligonos, columna_poligono_id='i
         gdf_puntos = gdf_puntos.to_crs(gdf_poligonos.crs)
 
     # Realizar un 'spatial join' para asignar cada punto al polígono correspondiente
-    puntos_en_poligonos = gpd.sjoin(gdf_puntos, gdf_poligonos[[columna_poligono_id, 'geometry']], how='left', predicate='within')
+    puntos_en_poligonos = gpd.sjoin(
+        gdf_puntos, 
+        gdf_poligonos[[columna_poligono_id, 'geometry']], 
+        how='left', 
+        predicate='within'  # Reemplazo de 'op' por 'predicate'
+    )
 
     # Contar cuántos puntos hay en cada polígono
     conteo = puntos_en_poligonos.groupby(columna_poligono_id).size().reset_index(name='conteo_puntos')
